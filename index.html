@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <header>
         <ul class="menu">
@@ -16,7 +18,7 @@
             <li><a href="#">об аукционе</a></li>
         </ul>
         <a class="logo">
-            <img src="images/logo-black.svg">
+            <img src="images/logo-black.svg" alt="Логотип аукциона Оно тебе надо">
         </a>
         <address class="menu-address">
             <a href="tel:+99995555555">+9 999 555 5555</a>
@@ -25,7 +27,7 @@
         </address>
     </header>
     <main>
-        <div class="overlay">
+        <section class="overlay">
             <h1 class="banner-title">
                 <span class="text-align-left">оно</span>
                 <span class="text-align-center">тебе</span>
@@ -35,40 +37,66 @@
                 <p class="banner-text">аукцион вещей, в который никто не верил</p>
                 <button class="banner-btn">сделать ставку</button>
             </div>
-        </div>
+        </section>
+        <section class="lots">
+            <h2 class="lots-title">Лоты</h2>
+            <ul class="lots-grid">
+                <li class="lots-grid-item">
+                    <a class="lot-card-link" href="#">
+                        <article class="lot-card lot-card-film">
+                            <h3 class="lot-card-title">Фильм режиссёра, который бросил киношколу</h3>
+                            <p class="lot-card-text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                                ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+                        </article>
+                    </a>
+                </li>
+                <li class="lots-grid-item">
+                    <a class="lot-card-link" href="#">
+                        <article class="lot-card lot-card-book">
+                            <h3 class="lot-card-title">Книга, где описан один скучный день из жизни рекламного агента
+                            </h3>
+                            <p class="lot-card-text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
+                                переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и
+                                об истории литературы, начиная с античных времён. И это всё накладывается на эпическую
+                                поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+                        </article>
+                    </a>
+                </li>
+                <li class="lots-grid-item">
+                    <a class="lot-card-link" href="#">
+                        <article class="lot-card lot-card-picture">
+                            <h3 class="lot-card-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                            <p class="lot-card-text">Ну действительно, там линия, тут кружочек... Никаких полей, лесов,
+                                котиков. Сколько бы вы на такое поставили, если бы не знали, что это — одна из
+                                революционных работ Кандинского?</p>
+                        </article>
+                    </a>
+                </li>
+            </ul>
+            <a href="#" class="lots-more-link">посмотреть больше</a>
+        </section>
+        <section class="about">
+            <div class="about-logo-container">
+                <div class="about-logo-circle">
+                    <img src="images/logo-white.svg" alt="Логотип" class="about-logo-image">
+                </div>
+            </div>
+            <article class="about-content">
+                <h2 class="about-title">Об аукционе</h2>
+                <div class="about-text-block">
+                    <p class="about-paragraph">Здесь вы не встретите очередное пафосное собрание невероятно дорогого
+                        антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен
+                        дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти
+                        странные вещи, созданные любителями?</p>
+                    <p class="about-paragraph">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В
+                        пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто
+                        неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов
+                        невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить
+                        их создатели. И сейчас эти лоты стали культовыми.</p>
+                </div>
+            </article>
+        </section>
     </main>
-<section class="lots">
-    <h2 class="lots-title">Лоты</h2>
-    <ul class="lots-grid">
-        <li class="lot-card lot-card-film">
-            <h3 class="lot-card-title">Фильм режиссёра, который бросил киношколу</h3>
-            <p class="lot-card-text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
-        </li>
-        <li class="lot-card lot-card-book">
-            <h3 class="lot-card-title">Книга, где описан один скучный день из жизни рекламного агента</h3>
-            <p class="lot-card-text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
-        </li>
-        <li class="lot-card lot-card-picture">
-            <h3 class="lot-card-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-            <p class="lot-card-text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
-        </li>
-    </ul>
-    <a href="#" class="lots-more-link">посмотреть больше</a>
-</section>
-    <section class="about">
-        <div class="about-logo-container">
-            <div class="about-logo-circle">
-                <img src="images/logo-white.svg" alt="Логотип" class="about-logo-image">
-            </div>
-        </div>
-        <article class="about-content">
-            <h2 class="about-title">Об аукционе</h2>
-            <div class="about-text-block">
-                <p class="about-paragraph">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
-                <p class="about-paragraph">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
-            </div>
-        </article>
-    </section>
     <footer class="footer">
         <address class="footer-address">
             <a href="tel:+99995555555">+9 999 555 5555</a>
@@ -96,4 +124,5 @@
     </footer>
 
 </body>
+
 </html>

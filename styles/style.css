@@ -12,7 +12,7 @@ body {
     padding: 0;
 }
 
-header {
+.header {
     display: grid;
     grid-template-columns: 441px 37px 148px 1fr 290px;
     align-items: center;
@@ -125,19 +125,6 @@ header {
 
 .address-block_header span {
     max-width: 220px;
-}
-
-.overlay {
-    display: flex;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/cover.jpg") no-repeat center center / cover;
-    max-width: 1100px;
-    width: 100%;
-    min-height: 757px;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: 0 auto;
-    padding: 0 50px;
-    box-sizing: border-box;
 }
 
 .overlay {
@@ -339,7 +326,6 @@ header {
     margin: 120px auto 0 auto;
     box-sizing: border-box;
     padding-top: 35px;
-    min-height: 595px;
 }
 
 .about-logo-container {
@@ -414,17 +400,6 @@ header {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 82px;
-}
-
-.footer-address {
-    width: 265px;
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-    font-style: normal;
-    align-items: flex-start;
-    text-align: left;
-    margin: 0;
 }
 
 .footer-address a {
